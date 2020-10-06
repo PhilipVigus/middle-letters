@@ -8,4 +8,8 @@ describe("getMiddle", () => {
   it("returns the middle letter for the word 'I'", () => {
     expect(getMiddle("I")).toEqual("I");
   });
+
+  it("returns the middle letter for the word 'abc'", () => {
+    expect(getMiddle("abc")).toEqual("b");
+  });
 });

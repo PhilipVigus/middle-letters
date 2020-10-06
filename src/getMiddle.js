@@ -1,5 +1,6 @@
 const getMiddle = (word) => {
-  return word;
+  const middle = word.length / 2;
+  return word.slice(middle, middle + 1);
 };
 
 export default getMiddle;
