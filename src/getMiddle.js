@@ -4,7 +4,7 @@ const getMiddle = (word) => {
   if (word.length % 2 !== 0) {
     return word.slice(middle, middle + 1);
   } else {
-    return word;
+    return word.slice(middle - 1, middle + 1);
   }
 };
 
