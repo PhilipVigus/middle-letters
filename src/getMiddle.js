@@ -1,5 +1,5 @@
 const getMiddle = (word) => {
-  return "a";
+  return word;
 };
 
 export default getMiddle;
